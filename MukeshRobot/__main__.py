@@ -311,7 +311,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")]]
+                    [InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back")]
                 ),
             )
 
@@ -347,7 +347,6 @@ def help_button(update, context):
 
     except BadRequest:
         pass
-
 
 def Mukesh_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
