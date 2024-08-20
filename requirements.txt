@@ -32,6 +32,7 @@ motor==3.5.1
 nekos.py
 opencv-python
 pretty-errors
+psycopg2-binary==2.9.9
 pydictionary==2.0.1
 pyfiglet
 pykeyboard==0.1.5
